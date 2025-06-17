@@ -1,0 +1,28 @@
+# ⛔ Folder dependencies
+node_modules/
+
+# 🔐 File konfigurasi rahasia
+.env
+
+# 🧪 Logs & debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 🚫 Sistem editor
+.DS_Store
+Thumbs.db
+
+# 🛠️ File editor config (opsional tergantung editor kamu)
+.vscode/
+.idea/
+
+# 📦 Optional: ignore OS/mac/Linux files
+*.swp
+*.swo
+*.bak
+
+# 💾 Output folder (kalau kamu pakai dist/build)
+dist/
+build/
